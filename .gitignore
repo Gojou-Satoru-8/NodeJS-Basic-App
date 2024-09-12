@@ -1,4 +1,4 @@
 node_modules/
-deploy.sh
+commit_deploy.sh
 
 .DS_Store
