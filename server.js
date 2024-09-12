@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
       </head>
       <body>
         <section>
-          <h2>My Course Goal</h2>
+          <h2>Goals for this semester</h2>
           <h3>${userGoal.join(", ")}</h3>
         </section>
         <form action="/store-goal" method="POST">
