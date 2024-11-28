@@ -44,5 +44,5 @@ app.post("/store-goal", (req, res) => {
 });
 
 app.listen(8000, "0.0.0.0", () => {
-  console.log("Server's up! Running at port #8000");
+  console.log("Server's up! Running at PORT #8000");
 });
